@@ -45,3 +45,35 @@ Este proyecto implementa un sistema completo de análisis OLAP (Procesamiento An
   plotly
   numpy
   openpyxl
+
+🚀 Cómo Ejecutar
+1. Instalar dependencias:
+   ```bash
+   pip install -r requirements.txt
+2. Generar datos de prueba (opcional):
+   ```bash
+   python generador_ventas_csv.py
+3. Ejecutar la aplicación interactiva:
+   ```bash
+   streamlit run app.py
+4. Ejecutar análisis básico OLAP:
+   ```bash
+   python olap_practica.py
+   
+📌 Operaciones OLAP Implementadas
+Roll-up: Agregación de ventas por año y producto.
+
+Drill-down: Desglose mensual por región.
+
+Slice/Dice: Filtros interactivos por diferentes dimensiones.
+
+Pivot: Matriz Región vs. Producto para comparar ventas.
+
+📈 Visualizaciones Disponibles
+📊 Gráficos de barras agrupadas
+
+🔥 Heatmaps interactivos
+
+📈 Gráficos de líneas temporales
+
+📋 Tablas dinámicas y resúmenes
