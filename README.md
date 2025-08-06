@@ -47,16 +47,13 @@ Este proyecto implementa un sistema completo de análisis OLAP (Procesamiento An
   openpyxl
 
 🚀 Cómo Ejecutar
-1. Instalar dependencias:
-   ```bash
-   pip install -r requirements.txt
-2. Generar datos de prueba (opcional):
+1. Generar datos de prueba (opcional):
    ```bash
    python generador_ventas_csv.py
-3. Ejecutar la aplicación interactiva:
+2. Ejecutar la aplicación interactiva:
    ```bash
    streamlit run app.py
-4. Ejecutar análisis básico OLAP:
+3. Ejecutar análisis básico OLAP:
    ```bash
    python olap_practica.py
    
